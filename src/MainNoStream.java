@@ -26,7 +26,7 @@ public class MainNoStream {
             return movie.year() < 2000;
         }
     };
-
+    // public interface Predicate<T> {boolean test(T t)}
     //TODO: Use the lambda expression to filter and print classic movies (released before 2000)
 
 

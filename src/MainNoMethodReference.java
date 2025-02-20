@@ -29,6 +29,7 @@ public class MainNoMethodReference {
     // Print the total of the release years
     System.out.println("Total Years: " + totalYears);
 
+    // T reduce(T identity, BinaryOperator<T> accumulator)
     // TODO: Use the reduce() method in Stream API and lambda expression to sum the release years of the movies
 
 

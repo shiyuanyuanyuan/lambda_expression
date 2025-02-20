@@ -20,6 +20,17 @@ public class MainNoLambda {
     movieList.add(new Movie("Inception", 2010));
     movieList.add(new Movie("Interstellar", 2014));
 
+    /**public interface Comparable<T> {
+      int compareTo(T o);
+    }
+    */
+
+    /**public interface Comparator<T> {
+      int compare(T o1, T o2);
+    }
+    */
+
+
     // Traditional named class
     class MovieComparator implements Comparator<Movie> {
       @Override
